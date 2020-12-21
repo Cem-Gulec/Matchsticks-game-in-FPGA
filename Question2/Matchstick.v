@@ -115,6 +115,6 @@ initial
 		finish<=0;	
 		buffer<=0;
 		button<=0;
-		state<=2'b00;
+		state<=3'b000;
 	end
 endmodule
