@@ -60,7 +60,7 @@ begin
 					begin
 						if(button == 0)
 							begin
-							if((ds+ds2)==0 || (ds+ds2) >= 16'h000A || ((initStick-(ds+ds2) >= 16'h8000) && (initStick-(ds+ds2) <= 16'hffff)))
+							if((ds+ds2)==0 || (ds+ds2) > 16'h000A || ((initStick-(ds+ds2) >= 16'h8000) && (initStick-(ds+ds2) <= 16'hffff)))
 								begin
 									wrong<=1;
 									initStick<=initStick;
